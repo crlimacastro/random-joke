@@ -65,7 +65,6 @@ const onRequest = (request, response) => {
     }
 };
 
-
 // 8 - create the server, hook up the request handling function, and start listening on `port`
 http.createServer(onRequest).listen(port);
 
